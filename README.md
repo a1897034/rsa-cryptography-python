@@ -143,6 +143,12 @@ if __name__ == "__main__":
     print(f"RSA is a more secure algorithm than DES since the difference in generation time {difference_2}>0 implying that DES is faster and therefore less secure and DES will only accept two key parameters out of RSA (key size and generation time) since RSA generates prime numbers and incurs hash functions but DES does not do either of these.")
 ```
 
+## What I learned
+- Implementing encryption algorithms in Python
+- Working with structured code and data
+- Applying mathematical concepts in programming
+
+
 ## Summary and Conclusion:
 We conclude that RSA will always have a longer program runtime than both AES and DES, since it was designed to encrypt and decrypt messages and protocols more securely and with much stronger keys generated with more bytes by means of number generation. Additionally, the more secure an algorithm, the more bytes will be required for the keys generated and the longer it will take to run.
 
